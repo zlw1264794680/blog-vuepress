@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Ant Design Pro使用 | 阿饭der博客</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    <link rel="icon" href="/blog-vuepress/logo.png">
+    <meta name="description" content="Ant Design Pro 是基于 Ant Design 和 umi 的封装的一整套企业级中后台前端/设计解决方案。
+
+如果你是纯粹的新手，第一次来跑项目建议读一下 [新手需知](https://pro.ant.design/ ...">
+    
+    <link rel="preload" href="/blog-vuepress/assets/css/0.styles.09961ddd.css" as="style"><link rel="preload" href="/blog-vuepress/assets/js/app.12dd998b.js" as="script"><link rel="preload" href="/blog-vuepress/assets/js/7.70941796.js" as="script"><link rel="preload" href="/blog-vuepress/assets/js/3.0cd4d089.js" as="script"><link rel="preload" href="/blog-vuepress/assets/js/47.c50dd7a7.js" as="script"><link rel="prefetch" href="/blog-vuepress/assets/js/10.4e5853cf.js"><link rel="prefetch" href="/blog-vuepress/assets/js/11.c32746cf.js"><link rel="prefetch" href="/blog-vuepress/assets/js/12.37f78033.js"><link rel="prefetch" href="/blog-vuepress/assets/js/13.6514a714.js"><link rel="prefetch" href="/blog-vuepress/assets/js/14.c6a26651.js"><link rel="prefetch" href="/blog-vuepress/assets/js/15.9bb06952.js"><link rel="prefetch" href="/blog-vuepress/assets/js/16.da9ddd4d.js"><link rel="prefetch" href="/blog-vuepress/assets/js/17.7af954a5.js"><link rel="prefetch" href="/blog-vuepress/assets/js/18.71195c1f.js"><link rel="prefetch" href="/blog-vuepress/assets/js/19.17e1a409.js"><link rel="prefetch" href="/blog-vuepress/assets/js/20.d484be58.js"><link rel="prefetch" href="/blog-vuepress/assets/js/21.8fa35948.js"><link rel="prefetch" href="/blog-vuepress/assets/js/22.de5361b4.js"><link rel="prefetch" href="/blog-vuepress/assets/js/23.ab822d7e.js"><link rel="prefetch" href="/blog-vuepress/assets/js/24.a4e115cd.js"><link rel="prefetch" href="/blog-vuepress/assets/js/25.90b90f4c.js"><link rel="prefetch" href="/blog-vuepress/assets/js/26.2ca4c3b9.js"><link rel="prefetch" href="/blog-vuepress/assets/js/27.e94c9dd0.js"><link rel="prefetch" href="/blog-vuepress/assets/js/28.4054e9be.js"><link rel="prefetch" href="/blog-vuepress/assets/js/29.b77c9f80.js"><link rel="prefetch" href="/blog-vuepress/assets/js/30.4fe771c2.js"><link rel="prefetch" href="/blog-vuepress/assets/js/31.7795ab18.js"><link rel="prefetch" href="/blog-vuepress/assets/js/32.db8f5419.js"><link rel="prefetch" href="/blog-vuepress/assets/js/33.77e0f6c6.js"><link rel="prefetch" href="/blog-vuepress/assets/js/34.083097e7.js"><link rel="prefetch" href="/blog-vuepress/assets/js/35.ab0fd735.js"><link rel="prefetch" href="/blog-vuepress/assets/js/36.b34f7e6c.js"><link rel="prefetch" href="/blog-vuepress/assets/js/37.08538d71.js"><link rel="prefetch" href="/blog-vuepress/assets/js/38.89790288.js"><link rel="prefetch" href="/blog-vuepress/assets/js/39.ba0c628b.js"><link rel="prefetch" href="/blog-vuepress/assets/js/4.2e7ef1a4.js"><link rel="prefetch" href="/blog-vuepress/assets/js/40.e7593c1c.js"><link rel="prefetch" href="/blog-vuepress/assets/js/41.2ff15111.js"><link rel="prefetch" href="/blog-vuepress/assets/js/42.54651ff8.js"><link rel="prefetch" href="/blog-vuepress/assets/js/43.0ef893ec.js"><link rel="prefetch" href="/blog-vuepress/assets/js/44.24bcb70a.js"><link rel="prefetch" href="/blog-vuepress/assets/js/45.4b35008e.js"><link rel="prefetch" href="/blog-vuepress/assets/js/46.49ccdde5.js"><link rel="prefetch" href="/blog-vuepress/assets/js/48.50b2b6b2.js"><link rel="prefetch" href="/blog-vuepress/assets/js/49.601426dd.js"><link rel="prefetch" href="/blog-vuepress/assets/js/5.a8c642b3.js"><link rel="prefetch" href="/blog-vuepress/assets/js/50.ac76f692.js"><link rel="prefetch" href="/blog-vuepress/assets/js/51.9440d7f3.js"><link rel="prefetch" href="/blog-vuepress/assets/js/52.49e7b104.js"><link rel="prefetch" href="/blog-vuepress/assets/js/53.1e8da660.js"><link rel="prefetch" href="/blog-vuepress/assets/js/54.405e995d.js"><link rel="prefetch" href="/blog-vuepress/assets/js/55.697c85fe.js"><link rel="prefetch" href="/blog-vuepress/assets/js/56.1430e738.js"><link rel="prefetch" href="/blog-vuepress/assets/js/57.dc2509d1.js"><link rel="prefetch" href="/blog-vuepress/assets/js/58.f987d401.js"><link rel="prefetch" href="/blog-vuepress/assets/js/59.10cf27a1.js"><link rel="prefetch" href="/blog-vuepress/assets/js/6.f1568290.js"><link rel="prefetch" href="/blog-vuepress/assets/js/60.ba881b64.js"><link rel="prefetch" href="/blog-vuepress/assets/js/61.83cc6756.js"><link rel="prefetch" href="/blog-vuepress/assets/js/62.373ae43f.js"><link rel="prefetch" href="/blog-vuepress/assets/js/63.4a467c6b.js"><link rel="prefetch" href="/blog-vuepress/assets/js/64.5ad39528.js"><link rel="prefetch" href="/blog-vuepress/assets/js/65.af007f64.js"><link rel="prefetch" href="/blog-vuepress/assets/js/66.389b7f9c.js"><link rel="prefetch" href="/blog-vuepress/assets/js/67.5f064d57.js"><link rel="prefetch" href="/blog-vuepress/assets/js/68.dbd30376.js"><link rel="prefetch" href="/blog-vuepress/assets/js/69.4beee3a9.js"><link rel="prefetch" href="/blog-vuepress/assets/js/8.257b0834.js"><link rel="prefetch" href="/blog-vuepress/assets/js/9.9c5eb73e.js"><link rel="prefetch" href="/blog-vuepress/assets/js/vuejs-paginate.7acd0996.js">
+    <link rel="stylesheet" href="/blog-vuepress/assets/css/0.styles.09961ddd.css">
+</head>
+<body>
+<div id="app" data-server-rendered="true"><div id="vuepress-theme-blog__global-layout"><section id="header-wrapper"><header id="header"><div class="header-wrapper"><div class="title"><a href="/blog-vuepress/" class="nav-link home-link">阿饭der博客 </a></div> <div class="header-right-wrap"><ul class="nav"><li class="nav-item"><a href="/blog-vuepress/" class="nav-link">Blog</a></li><li class="nav-item"><a href="/blog-vuepress/tag/" class="nav-link">Tags</a></li></ul> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></div></header></section> <div id="mobile-header"><div class="mobile-header-bar"><div class="mobile-header-title"><a href="/blog-vuepress/" class="nav-link mobile-home-link">阿饭der博客 </a> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div> <div class="mobile-menu-wrapper"><hr class="menu-divider"> <ul class="mobile-nav"><li class="mobile-nav-item"><a href="/blog-vuepress/" class="nav-link">Blog</a></li><li class="mobile-nav-item"><a href="/blog-vuepress/tag/" class="nav-link">Tags</a></li> <li class="mobile-nav-item"><!----></li></ul></div></div></div> <div class="content-wrapper"><div id="vuepress-theme-blog__post-layout"><article itemscope="itemscope" itemtype="https://schema.org/BlogPosting" class="vuepress-blog-theme-content"><header><h1 itemprop="name headline" class="post-title">
+        Ant Design Pro使用
+      </h1> <div class="post-meta"><div itemprop="publisher author" itemtype="http://schema.org/Person" itemscope="itemscope" class="post-meta-author"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-navigation"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg> <span itemprop="name">zlw</span> <!----></div> <div class="post-meta-date"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <time pubdate itemprop="datePublished" datetime="2023-03-20T00:00:00.000Z">
+      2023-03-20
+    </time></div> <ul itemprop="keywords" class="post-meta-tags"><li class="post-tag" data-v-42ccfcd5><a href="/blog-vuepress/tag/React" data-v-42ccfcd5><span data-v-42ccfcd5>React</span></a></li><li class="post-tag" data-v-42ccfcd5><a href="/blog-vuepress/tag/后台管理系统" data-v-42ccfcd5><span data-v-42ccfcd5>后台管理系统</span></a></li></ul></div></header> <div itemprop="articleBody" class="content__default"><p><a href="https://pro.ant.design/zh-CN" target="_blank" rel="noopener noreferrer">Ant Design Pro<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> 是基于 <a href="https://ant.design/index-cn/" target="_blank" rel="noopener noreferrer">Ant Design<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> 和 <a href="https://umijs.org/" target="_blank" rel="noopener noreferrer">umi<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> 的封装的一整套企业级中后台前端/设计解决方案。</p> <p>如果你是纯粹的新手，第一次来跑项目建议读一下 <a href="https://pro.ant.design/zh-CN/docs/introduction" target="_blank" rel="noopener noreferrer">新手需知<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>。</p> <h2 id="版本"><a href="#版本" class="header-anchor">#</a> 版本</h2> <div class="language-json extra-class"><pre class="language-json"><code><span class="token comment">// package.json</span>
+<span class="token punctuation">{</span>
+  <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;ant-design-pro&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;version&quot;</span><span class="token operator">:</span> <span class="token string">&quot;6.0.0&quot;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="多-tabs-布局"><a href="#多-tabs-布局" class="header-anchor">#</a> 多 tabs 布局</h2> <p><a href="https://juejin.cn/post/7153525746751766559/#heading-22" target="_blank" rel="noopener noreferrer">Ant Design Pro 内置的多 tabs 布局<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <blockquote><p>仅 <code>umi@4</code> 项目可用</p></blockquote> <ul><li>单独的<code>umi</code>项目，需要安装配置插件<code>@alita/pluins</code></li></ul> <p><code>config/config.ts</code> 或者 <code>.umirc.ts</code></p> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  plugins<span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token keyword">require</span><span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span><span class="token string">'@alita/plugins/dist/keepalive'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token keyword">require</span><span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span><span class="token string">'@alita/plugins/dist/tabs-layout'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  keepalive<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">.</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+  tabsLayout<span class="token operator">:</span> <span class="token punctuation">{</span>
+    hasDropdown<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> 
+    hasFixedHeader<span class="token operator">:</span> <span class="token boolean">true</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>  
+</code></pre></div><ul><li>基于<code>umi@4</code>的<code>Ant Design Pro</code>项目，可直接配置。</li></ul> <p><code>config/config.ts</code></p> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">defineConfig</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token comment">// 多tabs布局，只需要配置下面两项即可</span>
+    keepalive<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">.</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    tabsLayout<span class="token operator">:</span> <span class="token punctuation">{</span>
+        hasDropdown<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        hasFixedHeader<span class="token operator">:</span> <span class="token boolean">true</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">//    ...</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h2 id="关闭-locale"><a href="#关闭-locale" class="header-anchor">#</a> 关闭 locale</h2> <p><code>config/config.ts</code></p> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">defineConfig</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    layout<span class="token operator">:</span> <span class="token punctuation">{</span>
+        locale<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token operator">...</span>defaultSettings<span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">//    ...</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h2 id="修改默认配置信息"><a href="#修改默认配置信息" class="header-anchor">#</a> 修改默认配置信息</h2> <blockquote><p>默认配置信息，包括但不限于 ProLayout - 高级布局的配置</p></blockquote> <p>有俩处地方可以修改<code>ProLayout - 高级布局</code>：</p> <ul><li><code>config/defaultSettings.ts</code>（优先级更高）</li></ul> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token keyword">const</span> Settings<span class="token operator">:</span> ProLayoutProps <span class="token operator">&amp;</span> <span class="token punctuation">{</span>
+  pwa<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">boolean</span><span class="token punctuation">;</span>
+  logo<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+</code></pre></div><ul><li><code>src/app.tsx</code></li></ul> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token keyword">export</span> <span class="token keyword">const</span> layout<span class="token operator">:</span> <span class="token function-variable function">RunTimeLayoutConfig</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">{</span> initialState<span class="token punctuation">,</span> setInitialState <span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>需要动态处理的<code>ProLayout - 高级布局</code>配置信息，存放于<code>src/app.tsx</code>；其他的配置信息存放于<code>config/defaultSettings.ts</code>；</p> <p><code>config/defaultSettings.ts</code>配置如下：</p> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> ProLayoutProps <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@ant-design/pro-components'</span><span class="token punctuation">;</span>
+
+<span class="token comment">/**
+ * @name
+ */</span>
+<span class="token keyword">const</span> Settings<span class="token operator">:</span> ProLayoutProps <span class="token operator">&amp;</span> <span class="token punctuation">{</span>
+    pwa<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">boolean</span><span class="token punctuation">;</span>
+    logo<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 亮色or暗黑风</span>
+    navTheme<span class="token operator">:</span> <span class="token string">'light'</span><span class="token punctuation">,</span>
+    <span class="token comment">// 拂晓蓝</span>
+    colorPrimary<span class="token operator">:</span> <span class="token string">'#1890ff'</span><span class="token punctuation">,</span>
+    <span class="token comment">// layout 的菜单模式</span>
+    layout<span class="token operator">:</span> <span class="token string">'side'</span><span class="token punctuation">,</span>
+    <span class="token comment">// layout 的内容模式</span>
+    contentWidth<span class="token operator">:</span> <span class="token string">'Fluid'</span><span class="token punctuation">,</span>
+    <span class="token comment">// 是否固定 header 到顶部</span>
+    fixedHeader<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token comment">// 是否固定导航</span>
+    fixSiderbar<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token comment">//  是否开启色弱</span>
+    colorWeak<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token comment">//  标题</span>
+    title<span class="token operator">:</span> <span class="token string">'阿饭后台管理'</span><span class="token punctuation">,</span>
+    pwa<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token comment">//  样式修改</span>
+    token<span class="token operator">:</span> <span class="token punctuation">{</span>
+        colorBgAppListIconHover<span class="token operator">:</span> <span class="token string">'rgba(0,0,0,0.06)'</span><span class="token punctuation">,</span>
+        colorTextAppListIconHover<span class="token operator">:</span> <span class="token string">'rgba(255,255,255,0.95)'</span><span class="token punctuation">,</span>
+        colorTextAppListIcon<span class="token operator">:</span> <span class="token string">'rgba(255,255,255,0.85)'</span><span class="token punctuation">,</span>
+        sider<span class="token operator">:</span> <span class="token punctuation">{</span>
+            colorBgCollapsedButton<span class="token operator">:</span> <span class="token string">'#fff'</span><span class="token punctuation">,</span>
+            colorTextCollapsedButtonHover<span class="token operator">:</span> <span class="token string">'rgba(0,0,0,0.65)'</span><span class="token punctuation">,</span>
+            colorTextCollapsedButton<span class="token operator">:</span> <span class="token string">'rgba(0,0,0,0.45)'</span><span class="token punctuation">,</span>
+            colorMenuBackground<span class="token operator">:</span> <span class="token string">'#004FD9'</span><span class="token punctuation">,</span>
+            colorBgMenuItemCollapsedHover<span class="token operator">:</span> <span class="token string">'rgba(0,0,0,0.06)'</span><span class="token punctuation">,</span>
+            colorBgMenuItemCollapsedSelected<span class="token operator">:</span> <span class="token string">'rgba(0,0,0,0.15)'</span><span class="token punctuation">,</span>
+            colorBgMenuItemCollapsedElevated<span class="token operator">:</span> <span class="token string">'rgba(0,0,0,0.85)'</span><span class="token punctuation">,</span>
+            colorMenuItemDivider<span class="token operator">:</span> <span class="token string">'rgba(255,255,255,0.15)'</span><span class="token punctuation">,</span>
+            colorBgMenuItemHover<span class="token operator">:</span> <span class="token string">'rgba(0,0,0,0.06)'</span><span class="token punctuation">,</span>
+            colorBgMenuItemSelected<span class="token operator">:</span> <span class="token string">'rgba(0,0,0,0.15)'</span><span class="token punctuation">,</span>
+            colorTextMenuSelected<span class="token operator">:</span> <span class="token string">'#fff'</span><span class="token punctuation">,</span>
+            colorTextMenuItemHover<span class="token operator">:</span> <span class="token string">'rgba(255,255,255,0.75)'</span><span class="token punctuation">,</span>
+            colorTextMenu<span class="token operator">:</span> <span class="token string">'rgba(255,255,255,0.75)'</span><span class="token punctuation">,</span>
+            colorTextMenuSecondary<span class="token operator">:</span> <span class="token string">'rgba(255,255,255,0.65)'</span><span class="token punctuation">,</span>
+            colorTextMenuTitle<span class="token operator">:</span> <span class="token string">'rgba(255,255,255,0.95)'</span><span class="token punctuation">,</span>
+            colorTextMenuActive<span class="token operator">:</span> <span class="token string">'rgba(255,255,255,0.95)'</span><span class="token punctuation">,</span>
+            colorTextSubMenuSelected<span class="token operator">:</span> <span class="token string">'#fff'</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> Settings<span class="token punctuation">;</span>
+</code></pre></div><h2 id="prolayout-高级布局的配置"><a href="#prolayout-高级布局的配置" class="header-anchor">#</a> ProLayout - 高级布局的配置</h2> <p>动态（本地）logo的配置、关闭 SettingDrawer 组件、菜单链接、用户头像信息</p> <div class="language-tsx extra-class"><pre class="language-tsx"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> LinkOutlined <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@ant-design/icons'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token keyword">type</span> <span class="token punctuation">{</span> Settings <span class="token keyword">as</span> LayoutSettings <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@ant-design/pro-components'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token keyword">type</span> <span class="token punctuation">{</span> RunTimeLayoutConfig <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@umijs/max'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> history<span class="token punctuation">,</span> Link <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@umijs/max'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> defaultSettings <span class="token keyword">from</span> <span class="token string">'../config/defaultSettings'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> errorConfig <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./requestErrorConfig'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> currentUser <span class="token keyword">as</span> queryCurrentUser <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./services/ant-design-pro/api'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> AvatarDropdown <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./components/RightContent/AvatarDropdown'</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> isDev <span class="token operator">=</span> process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">NODE_ENV</span> <span class="token operator">===</span> <span class="token string">'development'</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> loginPath <span class="token operator">=</span> <span class="token string">'/user/login'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> logo <span class="token keyword">from</span> <span class="token string">'../public/logo.svg'</span>
+
+<span class="token comment">/**
+ * @see  https://umijs.org/zh-CN/plugins/plugin-initial-state
+ * */</span>
+<span class="token keyword">export</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">getInitialState</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token builtin">Promise</span><span class="token operator">&lt;</span><span class="token punctuation">{</span>
+    settings<span class="token operator">?</span><span class="token operator">:</span> Partial<span class="token operator">&lt;</span>LayoutSettings<span class="token operator">&gt;</span><span class="token punctuation">;</span>
+    currentUser<span class="token operator">?</span><span class="token operator">:</span> <span class="token constant">API</span><span class="token punctuation">.</span>CurrentUser<span class="token punctuation">;</span>
+    loading<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">boolean</span><span class="token punctuation">;</span>
+    fetchUserInfo<span class="token operator">?</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token builtin">Promise</span><span class="token operator">&lt;</span><span class="token constant">API</span><span class="token punctuation">.</span>CurrentUser <span class="token operator">|</span> <span class="token keyword">undefined</span><span class="token operator">&gt;</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> <span class="token function-variable function">fetchUserInfo</span> <span class="token operator">=</span> <span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        <span class="token keyword">try</span> <span class="token punctuation">{</span>
+            <span class="token keyword">const</span> msg <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">queryCurrentUser</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+                skipErrorHandler<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+            <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">return</span> msg<span class="token punctuation">.</span>data<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span>error<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            history<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>loginPath<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">return</span> <span class="token keyword">undefined</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token comment">// 如果不是登录页面，执行</span>
+    <span class="token keyword">const</span> <span class="token punctuation">{</span> location <span class="token punctuation">}</span> <span class="token operator">=</span> history<span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>location<span class="token punctuation">.</span>pathname <span class="token operator">!==</span> loginPath<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">const</span> currentUser <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">fetchUserInfo</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> <span class="token punctuation">{</span>
+            fetchUserInfo<span class="token punctuation">,</span>
+            currentUser<span class="token punctuation">,</span>
+            settings<span class="token operator">:</span> defaultSettings <span class="token keyword">as</span> Partial<span class="token operator">&lt;</span>LayoutSettings<span class="token operator">&gt;</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+        fetchUserInfo<span class="token punctuation">,</span>
+        settings<span class="token operator">:</span> defaultSettings <span class="token keyword">as</span> Partial<span class="token operator">&lt;</span>LayoutSettings<span class="token operator">&gt;</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// ProLayout 支持的api https://procomponents.ant.design/components/layout</span>
+<span class="token keyword">export</span> <span class="token keyword">const</span> layout<span class="token operator">:</span> <span class="token function-variable function">RunTimeLayoutConfig</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">{</span> initialState<span class="token punctuation">,</span> setInitialState <span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+        <span class="token comment">//  自定义操作列表</span>
+        <span class="token function-variable function">actionsRender</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token comment">// 用户头像信息</span>
+        avatarProps<span class="token operator">:</span> <span class="token punctuation">{</span>
+            src<span class="token operator">:</span> logo<span class="token punctuation">,</span>
+            title<span class="token operator">:</span> <span class="token string">'阿饭'</span><span class="token punctuation">,</span>
+            <span class="token function-variable function">render</span><span class="token operator">:</span> <span class="token punctuation">(</span>_<span class="token punctuation">,</span> avatarChildren<span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+                <span class="token keyword">return</span> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">AvatarDropdown</span></span><span class="token punctuation">&gt;</span></span><span class="token punctuation">{</span>avatarChildren<span class="token punctuation">}</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">AvatarDropdown</span></span><span class="token punctuation">&gt;</span></span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token comment">// 水印</span>
+        waterMarkProps<span class="token operator">:</span> <span class="token punctuation">{</span>
+            content<span class="token operator">:</span> <span class="token string">'阿饭'</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token comment">//  自定义页脚的 render 方法</span>
+        footerRender<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token function-variable function">onPageChange</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+            <span class="token keyword">const</span> <span class="token punctuation">{</span> location <span class="token punctuation">}</span> <span class="token operator">=</span> history<span class="token punctuation">;</span>
+            <span class="token comment">// 如果没有登录，重定向到 login</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>initialState<span class="token operator">?.</span>currentUser <span class="token operator">&amp;&amp;</span> location<span class="token punctuation">.</span>pathname <span class="token operator">!==</span> loginPath<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                history<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>loginPath<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        links<span class="token operator">:</span> isDev
+            <span class="token operator">?</span> <span class="token punctuation">[</span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Link</span></span> <span class="token attr-name">key</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>openapi<span class="token punctuation">&quot;</span></span> <span class="token attr-name">to</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>/umi/plugin/openapi<span class="token punctuation">&quot;</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>_blank<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+                    </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">LinkOutlined</span></span> <span class="token punctuation">/&gt;</span></span><span class="token plain-text">
+                    </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span><span class="token punctuation">&gt;</span></span><span class="token plain-text">OpenAPI 文档</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+                </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">Link</span></span><span class="token punctuation">&gt;</span></span><span class="token punctuation">,</span>
+            <span class="token punctuation">]</span>
+            <span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        menuHeaderRender<span class="token operator">:</span> <span class="token keyword">undefined</span><span class="token punctuation">,</span>
+        <span class="token comment">// 自定义 403 页面</span>
+        <span class="token comment">// unAccessible: &lt;div&gt;unAccessible&lt;/div&gt;,</span>
+        <span class="token comment">// 增加一个 loading 的状态</span>
+        <span class="token function-variable function">childrenRender</span><span class="token operator">:</span> <span class="token punctuation">(</span>children<span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+            <span class="token comment">// if (initialState?.loading) return &lt;PageLoading /&gt;;</span>
+            <span class="token keyword">return</span> <span class="token punctuation">(</span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+                    </span><span class="token punctuation">{</span>children<span class="token punctuation">}</span><span class="token plain-text">
+                </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        logo<span class="token punctuation">,</span>
+        <span class="token operator">...</span>initialState<span class="token operator">?.</span>settings<span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">/**
+ * @name request 配置，可以配置错误处理
+ * 它基于 axios 和 ahooks 的 useRequest 提供了一套统一的网络请求和错误处理方案。
+ * @doc https://umijs.org/docs/max/request#配置
+ */</span>
+<span class="token keyword">export</span> <span class="token keyword">const</span> request <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>errorConfig<span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><h3 id="动态-本地-logo"><a href="#动态-本地-logo" class="header-anchor">#</a> 动态（本地）logo</h3> <ul><li><code>config/defaultSettings.ts</code></li></ul> <p>动态（本地）logo，无法在<code>config/defaultSettings.ts</code>配置，只能在<code>src/app.tsx</code>配置<code>ProLayout</code>。
+但是<code>config/defaultSettings.ts</code>的优先级更高，所以要将里面的<code>logo</code>属性，移除掉！！！</p> <ul><li><code>src/app.tsx</code></li></ul> <div class="language-tsx extra-class"><pre class="language-tsx"><code><span class="token keyword">import</span> logo <span class="token keyword">from</span> <span class="token string">'../public/logo.svg'</span>
+<span class="token keyword">export</span> <span class="token keyword">const</span> layout<span class="token operator">:</span> <span class="token function-variable function">RunTimeLayoutConfig</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">{</span> initialState<span class="token punctuation">,</span> setInitialState <span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+        logo<span class="token punctuation">,</span>
+        <span class="token comment">// ...</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div></div> <footer><!----> <hr> <!----></footer></article> <div class="sticker vuepress-toc"><div class="vuepress-toc-item vuepress-toc-h2 active"><a href="#版本" title="版本">版本</a></div><div class="vuepress-toc-item vuepress-toc-h2"><a href="#多-tabs-布局" title="多 tabs 布局">多 tabs 布局</a></div><div class="vuepress-toc-item vuepress-toc-h2"><a href="#关闭-locale" title="关闭 locale">关闭 locale</a></div><div class="vuepress-toc-item vuepress-toc-h2"><a href="#修改默认配置信息" title="修改默认配置信息">修改默认配置信息</a></div><div class="vuepress-toc-item vuepress-toc-h2"><a href="#prolayout-高级布局的配置" title="ProLayout - 高级布局的配置">ProLayout - 高级布局的配置</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#动态-本地-logo" title="动态（本地）logo">动态（本地）logo</a></div></div></div></div> <footer class="footer" data-v-3d9deeb8><div class="footer-left-wrap" data-v-3d9deeb8><ul class="contact" data-v-3d9deeb8><li class="contact-item" data-v-3d9deeb8><a href="https://zlw1264794680.github.io/blog-vuepress/" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-3d9deeb8><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github" data-v-3d9deeb8><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" data-v-3d9deeb8></path></svg>
+          
+        </a></li></ul></div> <div class="footer-right-wrap" data-v-3d9deeb8><ul class="copyright" data-v-3d9deeb8><li class="copyright-item" data-v-3d9deeb8>小程序搜：阿饭案例</li><li class="copyright-item" data-v-3d9deeb8>MIT Licensed</li></ul></div></footer></div><div class="global-ui"><!----></div></div>
+<script src="/blog-vuepress/assets/js/app.12dd998b.js" defer></script><script src="/blog-vuepress/assets/js/7.70941796.js" defer></script><script src="/blog-vuepress/assets/js/3.0cd4d089.js" defer></script><script src="/blog-vuepress/assets/js/47.c50dd7a7.js" defer></script>
+<script>
+    console.log('百度统计-博客')
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?01c96d2ddb0ebb2e29164ff1341eeb0a";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+</body>
+</html>
